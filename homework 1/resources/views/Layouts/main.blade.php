@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<title>@yield('title')</title>
+<title>@yield('title','No Title')</title>
 </head>
 <body>
   @include('components.menu')
